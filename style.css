@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px; /* Розмір фото */
+    height: 150px; /* Розмір фото */
+    border-radius: 50%;
+    overflow: hidden; /* Обрізаємо зображення */
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-info {
+    flex-grow: 1;
+}
+
+.contact-info,
+.skills-section,
+.education-section,
+.experience-section {
+    margin-bottom: 20px;
+}
+
+.contact-info h3,
+.skills-section h3,
+.education-section h3,
+.experience-section h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    margin-bottom: 5px;
+}
+
+/* Додаткові стилі за потреби */
